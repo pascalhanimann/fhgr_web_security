@@ -1,0 +1,6 @@
+ErrorDocument 404 /error.php?message=Seite%20nicht%20gefunden
+
+# Macht eine Seite /beispielseite.html über die URL /beispielseite/ abrufbar.
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9-]+)/$ $1.php
